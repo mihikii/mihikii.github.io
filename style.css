@@ -1,0 +1,113 @@
+:root {
+  --body-bg-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif');
+  --content: #43256E;
+}
+
+@font-face {
+  font-family: 'FreePixel';
+  src: url('resources/FreePixel.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'FreePixel';
+  margin: 0;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.741);
+  height: 100%;
+  background-image: var(--body-bg-image);
+  background-position: center center;
+  background-blend-mode: overlay;
+}
+
+header {
+  font-size: 25px;
+  color: #fe99db;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container a {
+  color: #89b4fa;
+  font-weight: bold;
+}
+
+#container {
+  max-width: 900px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: calc(100vh - 190px);
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  height: 760px;
+  text-align: left;
+}
+
+h3 {
+  color: #89b4fa;
+}
+
+h2 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  color: #89b4fa;
+  text-shadow: 0 0 1px #89b4fa, 0 0 1px #89b4fa, 0 0 1px #89b4fa, 0 0 12px #89b4fa, 0 0 15px #89b4fa, 0 0 1px #89b4fa;
+}
+
+h4 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+h5 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -30px;
+}
+
+h6 {
+  text-align: left;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.box {
+  background-color: #09122d;
+  border: 1px solid #89b4fa;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  #flex {
+    flex-wrap: wrap;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  #navbar ul {
+    flex-wrap: wrap;
+  }
+}
