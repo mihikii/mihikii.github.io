@@ -10,21 +10,18 @@
   font-style: normal;
 }
 
+.fact-number {
+  color: #fe99db;
+}
+
 body {
   font-family: 'FreePixel';
   margin: 0;
   color: #ffffff;
-  background-color: #0000007b;
+  background-color: #000000c0;
   height: 100%;
   background-image: var(--body-bg-image);
-  background-position: center center;
   background-blend-mode: overlay;
-}
-
-html {
-  background-color: #000000; /* Solid black background */
-  height: 100%;
-  margin: 0;
 }
 
 header {
@@ -113,7 +110,5 @@ h6 {
     width: 100%;
   }
 
-  #navbar ul {
-    flex-wrap: wrap;
-  }
+
 }
