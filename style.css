@@ -1,6 +1,6 @@
 :root {
   --body-bg-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif');
-  --content: #43256E;
+  --content: #000000bd;
 }
 
 @font-face {
@@ -14,7 +14,7 @@ body {
   font-family: 'FreePixel';
   margin: 0;
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.741);
+  background-color: #000000bd;
   height: 100%;
   background-image: var(--body-bg-image);
   background-position: center center;
